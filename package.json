@@ -1,0 +1,32 @@
+{
+  "name": "langchain-rag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louis61619/langchain-RAG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louis61619/langchain-RAG/issues"
+  },
+  "homepage": "https://github.com/louis61619/langchain-RAG#readme",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.3",
+    "@langchain/community": "^0.3.4",
+    "@langchain/core": "^0.3.6",
+    "@langchain/openai": "^0.3.5",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "faiss-node": "^0.5.1",
+    "html-to-text": "^9.0.5",
+    "langchain": "^0.3.2",
+    "pdf-parse": "^1.1.1"
+  }
+}

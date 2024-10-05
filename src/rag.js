@@ -2,9 +2,9 @@ import { ChatPromptTemplate } from '@langchain/core/prompts';
 import { createStuffDocumentsChain } from 'langchain/chains/combine_documents';
 import { createRetrievalChain } from 'langchain/chains/retrieval';
 import { FaissStore } from '@langchain/community/vectorstores/faiss';
-import { chatModel, embeddingModel } from './model';
+import { chatModel, embeddingModel } from './model.js';
 
-const loadedVectorStore = await FaissStore.load('../../assets', embeddingModel);
+const loadedVectorStore = await FaissStore.load('assets', embeddingModel);
 
 const questionAnsweringPrompt = ChatPromptTemplate.fromMessages([
   [

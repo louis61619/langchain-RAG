@@ -1,5 +1,5 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
-import { embeddingModel } from "./model";
+import { embeddingModel } from "./model.js";
 
 const vectorstore = await MemoryVectorStore.fromTexts(
   ["Hello world", "Bye Bye", "nice world"],
